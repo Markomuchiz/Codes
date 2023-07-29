@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form for user data by Mako</title>
+
+    <style>
+        label, input{
+            margin: 5px;
+        }
+
+        p{
+            font-size: x-large;
+            color: rebeccapurple;
+            font-weight: 200;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Enter your details below</p>
+
+</body>
+
+<form>
+    <div>
+        <label for="first name">First Name</label>
+        <input type="text" title="First Name" placeholder="First Name"> 
+   
+    <div>
+        <label for="last name">Last Name</label>
+        <input type="text" title="Last Name" placeholder="Last Name"> 
+
+    <div>
+        <label for="date-time">D.O.B.</label>
+        <input type="datetime-local" title="D.O.B." placeholder="dd/mm/yyyy"> 
+
+    <div>
+        <label for="email">Email</label>
+        <input type="email" title="email" placeholder="email"> 
+
+    <div>
+        <label for="sex"> Male:<input type="radio" id="male" name="male" value="male"></label>
+        <label for="sex"> Female:<input type="radio" id="female" name="female" value="female"></label>         
+    </div>
+    
+    <div>
+        <label for="file">Upload File</label>
+        <input type="file" title="file">
+    </div>
+
+    <div>
+        <button type="submit">Submit</button>
+        <button type="clear">Clear</button>
+    </div>
+
+</form>
+</html>
